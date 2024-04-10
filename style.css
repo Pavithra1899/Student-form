@@ -1,0 +1,134 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px; /* Reduced width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form table styles */
+  .table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table-container td,
+  .table-container th {
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: left;
+  }
+  
+  /* Save button styles */
+  .save-button {
+    text-align: center;
+  }
+  
+  .save-button button {
+    padding: 8px 250px; /* Reduced padding */
+    background-color: #4ef1f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .save-button button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table row hover effect */
+  .table-container tr:hover {
+    background-color: #f9f9f9;
+  }
+  /* Input text box styles */
+ .textb{
+    width: calc(100% - 16px); /* Adjusted input width */
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    background-color: #f9f9f9; /* Background color */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border color and box shadow */
+  }
+  
+  /* Placeholder color */
+  .textb::placeholder {
+    color: #999; /* Light gray color */
+  }
+  
+  /* Focus styles */
+  .textb:focus {
+    border-color: #5cb85c; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5); /* Box shadow on focus */
+  }
+  .radio{
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Select box styles */
+select {
+    width: calc(100% - 16px); /* Adjusted select box width */
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    background-color: #f9f9f9; /* Background color */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* Remove default appearance for WebKit browsers */
+    -moz-appearance: none; /* Remove default appearance for Firefox */
+  }
+  
+  /* Arrow icon for select box */
+  .select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Placeholder color */
+  select::placeholder {
+    color: #999; /* Light gray color */
+  }
+  
+  /* Focus styles */
+  select:focus {
+    border-color: #5cb85c; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5); /* Box shadow on focus */
+  }
+  
